@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+:root{
+  --bg-skyblue:#8ECDDD;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+  box-sizing: content-box;
+  overflow: hidden;
+  background-color:  #FFFFFF;
+}
+#app{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.card{
+border: none;
+width: 10vw;
+  display: flex;
+  justify-content: center;
+
+}
+#weather-icon>img{
+  height: 12vw;
+  width: auto;
+  object-fit: cover;
+}
+h3{
+  font-size: 3vw;
+}
+h5{
+  font-size: 2vw;
+}
+#currentTemp{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 6vw;
+}
