@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+html{
+  height: 100%;
+}
+body{
+  background: url(https://img.freepik.com/premium-vector/global-currency-background_115579-405.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+#input-box{
+  background-color: rgba(244, 213, 213, 0.16);
+  filter:blur(10);
+}
